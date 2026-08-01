@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+.modern-navbar {
+    font-family: "Playwrite NZ", cursive;
+
+background-color: rgb(0, 104, 0);
+
+    padding: 15px 0;
+
+    box-shadow: 
+        0 8px 20px rgba(0,0,0,0.15);
+
+}
+
+
+.brand {
+
+    color:white !important;
+    font-size:1.6rem;
+    font-weight:700;
+    letter-spacing:0.5px;
+
+}
+
+
+.brand-highlight {
+
+    color:#fbbf24;
+
+}
+
+
+.nav-links {
+
+    gap:20px;
+
+}
+
+
+.nav-links .nav-link,
+.nav-links .dropdown-toggle {
+
+    color:white !important;
+    font-size:1.05rem;
+    font-weight:500;
+
+    transition:0.3s;
+
+}
+
+
+.nav-links .nav-link:hover,
+.nav-links .dropdown-toggle:hover {
+
+    color:#fbbf24 !important;
+
+}
+
+
+/* Dropdown */
+
+.dropdown-menu {
+
+    border-radius:15px;
+    padding:10px;
+    border:none;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+
+.dropdown-item {
+
+    border-radius:10px;
+    padding:10px 15px;
+
+}
+
+
+.dropdown-item:hover {
+
+    background:#111827;
+    color:white;
+
+}
+
+
+/* Search */
+
+.search-container {
+
+    margin-top:5px;
+
+}
+
+
+.search-box {
+
+    display:flex;
+    gap:10px;
+
+}
+
+
+.search-input {
+
+    width:220px;
+
+    border-radius:30px;
+
+    padding-left:20px;
+
+    border:none;
+
+}
+
+
+.search-btn {
+
+    border-radius:30px;
+
+    padding:8px 20px;
+
+    font-weight:600;
+
+}
+
+
+@media(max-width:992px){
+
+    .nav-links{
+
+        margin-top:20px;
+        gap:10px;
+
+    }
+
+
+    .search-box{
+
+        margin-top:20px;
+
+    }
+
+
+    .search-input{
+
+        width:100%;
+
+    }
+
+}
+
